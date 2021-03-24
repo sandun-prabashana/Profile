@@ -1,0 +1,922 @@
+@media all and (max-width: 375px) and (min-width: 325px){
+    #edu1{
+        display: none;
+    }
+    #edu2{
+        display: none;
+    }
+    #edu3{
+        display: none;
+    }
+    #edu4{
+        display: none;
+    }
+    #idschool{
+        display: none;
+    }
+    #idschool2{
+        display: none;
+    }
+    #idinstitute{
+        display: none;
+    }
+    #Scltext{
+        display: block;
+    }
+    #Scl1text{
+        display: block;
+    }
+    #Unitext{
+        display: block;
+    }
+    label #s1{
+        font-size: 30px;
+        color: rgb(100 255 218);
+        float: right;
+        line-height: 60px;
+        margin-right: 10px;
+        cursor: pointer;
+        display: none;
+        margin-top: 10px;
+        position: fixed;
+        right: 0;
+    }
+    label #s2{
+        font-size: 30px;
+        color: rgb(100 255 218);
+        float: right;
+        line-height: 60px;
+        margin-right: 10px;
+        cursor: pointer;
+        display: none;
+        margin-top: 10px;
+        position: fixed;
+        right: 0;
+    }
+    #body{
+        height: 5970px;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(10 25 47);
+    }
+    label #s1{
+        display: block;
+    }
+
+    nav ul{
+        position: fixed;
+        width:100vw;
+        height: 100vh;
+        background-color: rgb(10 25 47);
+        top: 50px;
+        left: -100%;
+        text-align: center;
+        transition: 0.5s;
+        z-index: 10;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 40px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a{
+        font-size: 16px;
+    }
+
+    /* For Responsive State */
+    #res-menu:checked ~ ul{
+        left: 0;
+    }
+
+    #res-menu:checked ~ label #s1{
+        display: none;
+    }
+
+    #res-menu:checked ~ label #s2{
+        display: block;
+    }
+
+    /* Banner */
+    /*.banner-text h2{*/
+    /*    font-size: 40px;*/
+    /*}*/
+    #circle{
+        bottom: 70px;
+        left: 0px;
+        right: 0px;
+        margin-left: 8px;
+        margin-right: 6px;
+        height: 350px;
+        position: absolute;
+        overflow: hidden;
+    }
+    #circle1{
+        width: 400%;
+        height: 100%;
+        display: flex;
+        /*animation: slide 10s infinite alternate;*/
+    }
+    .banner-area{
+        /*bottom: 30px;*/
+        /*left: 0px;*/
+        /*right: 0px;*/
+        /*margin-left: 8px;*/
+        /*margin-right: 6px;*/
+        /*height: 350px;*/
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    .pic2{
+        width: 100%;
+        height: 100%;
+
+    }
+    .pic3{
+        width: 100%;
+        height: 100%;
+    }
+    .pic4{;
+        width: 100%;
+        height: 100%;
+    }
+    #logo{
+        position: fixed;
+        width: 75px;
+        height: 75px;
+    }
+    /*#profile{*/
+    /*    height: calc((100vh * 2) + 100px);*/
+    /*}*/
+    #idone{
+        height: 30px;
+        width: 136px;
+        position: absolute;
+        font-size: 25px;
+        margin-bottom: 5px;
+        left: 0px;
+        /* margin-top: 0px; */
+        /* margin-left: 0px; */
+        top: 0;
+        right: 0;
+        bottom: 405px;
+        margin: auto
+    }
+    #all1{
+        height: 30px;
+        width: 265px;
+        position: relative;
+        left: 0px;
+        margin-bottom: 0;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    #pro1{
+        top: 0;
+        width: 100vw;
+        height: 350px;
+        position: relative;
+        left: 0px;
+    }
+    #pro2{
+        top: 0;
+        width: 100vw;
+        height: 350px;
+        position: relative;
+        left: 0px;
+        height: 305px;
+    }
+    #pro3{
+        top: 0;
+        width: 100vw;
+        height: 350px;
+        position: relative;
+        left: 0px
+    }
+
+    #two {
+        font-size: 18px;
+        color: rgb(100 255 218);
+        position: absolute;
+        top: 13px;
+        right: 740px;
+    }
+    #three{
+        width: 10px;
+        height: 10px;
+        left: 60px;
+        top: 355px;
+    }
+    #idfive{
+        left: 85px;
+        top: 355px;
+        font-size: 15px;
+    }
+    #four{
+        width: 10px;
+        height: 10px;
+        left: 180px;
+        top: 355px;
+    }
+    #idsix{
+        left: 205px;
+        top: 355px;
+        font-size: 15px;
+    }
+    #pic{
+        width: 225px;
+        height: 225px;
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #idbox{
+        width: 225px;
+        height: 225px;
+        top: 15px;
+        bottom: 0;
+        right: 0;
+        left: 15px;
+        margin: auto;
+    }
+    #idbox1{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background-color: rgb(100 255 218);
+        opacity: 0.5;
+    }
+    #idtop{
+        height: 30px;
+        width: 90px;
+        position: absolute;
+        font-size: 25px;
+        margin-bottom: 5px;
+        left: 0px;
+        top: 0;
+        right: 0;
+        bottom: 405px;
+        margin: auto;
+    }
+    #t1{
+        font-size: 17px;
+        margin-left: 20px;
+    }
+    #t2{
+        font-size: 17px;
+        margin-left: 20px;
+    }
+    #t3{
+        font-size: 17px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+    #idimg3{
+        left: 180px;
+        right: 0;
+        margin: auto;
+        top: 265px;
+    }
+    #idimg2{
+        left: 0;;
+        right: 180px;
+        margin: auto;
+        top: 265px;
+    }
+    #idimg1{
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 265px;
+    }
+    .all{
+        font-size: 18px;
+    }
+    #all2{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    #all3{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    #all4{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    #idskill{
+        position: absolute;
+        width: 90vw;
+        left: 0px;
+        right: 0;
+        top: 55px;
+        bottom: 0;
+        margin: auto;
+    }
+    #idsub{
+        font-size: 16px;
+        margin-left: 38px;
+        margin-top: 8px;
+    }
+    #idsub1{
+        font-size: 16px;
+        margin-left: 38px;
+        margin-top: 8px;
+    }
+    #idsub2{
+        font-size: 16px;
+        margin-left: 38px;
+        margin-top: 8px;
+    }
+    #idrow1{
+        left: 0px;
+        width: 90vw;
+        margin-left: 0;
+    }
+    #idrow2{
+        left: 0px;
+        width: 90vw;
+        margin-left: 0;
+    }
+    #edu{
+        left: 170px;
+        top: 50px;
+    }
+    #idschool{
+        width: 150px;
+        top: 81px;
+        left: 92px;
+    }
+    #idschool2{
+        width: 210px;
+        left: 99px;
+        top: 230px;
+    }
+    #idinstitute{
+        left: 93px;
+        top: 385px;
+        width: 220px;
+        font-size: 15px;
+    }
+    /*#contactmain{*/
+    /*    width: 100vw;*/
+    /*    height: calc(100vh + 100vh);*/
+    /*    position: relative;*/
+
+    /*}*/
+    .imgname{
+        left: 22px;
+    }
+    .imgfullname{
+        font-size: 27px;
+        width: 260px;
+        left: 35px;
+        top: 122px;
+    }
+    .imgjava{
+        font-size: 27px;
+        width: 247px;
+        left: 39px;
+        top: 163px;
+    }
+    #font{
+        font-size: 27px;
+        padding-top: 0px;
+        left: 15px;
+        margin-left: 0px;
+    }
+    #font1\.1{
+        font-size: 27px;
+        width: 101px;
+        left: 64px;
+        padding-top: 0px;
+    }
+    #font1\.2{
+        font-size: 8px;
+        margin-left: 0px;
+        padding-top: 0px;
+        left: 116px;
+        width: 195px;
+        bottom: 0px;
+        height: 20px;
+    }
+    #artical1{
+        width: 100vw;
+        height: 30px;
+    }
+    #profiledetail{
+        width: 100vw;
+    }
+    #idbox1{
+        width: 225px;
+        height: 225px;
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #idbox1:hover{
+        opacity: 0.0;
+    }
+    #artical2{
+        width: 100vw;
+        height: 30px;
+    }
+    #font2{
+        font-size: 27px;
+        padding-top: 0px;
+        left: 15px;
+        margin-left: 0px;
+    }
+    #font2\.1{
+        font-size: 27px;
+        width: 101px;
+        left: 64px;
+        padding-top: 0px;
+    }
+    #font2\.2{
+        font-size: 8px;
+        margin-left: 0px;
+        padding-top: 0px;
+        left: 116px;
+        width: 190px;
+        bottom: 0px;
+        height: 20px;
+    }
+    #mainprofile{
+        height: 520px;
+    }
+    #profile{
+        height:1140px;
+    }
+    #skills{
+        height: 520px;
+    }
+    #assiment{
+        height: 1640px;
+    }
+    #artical3{
+        width: 100vw;
+        height: 30px;
+    }
+    #font3{
+        font-size: 27px;
+        padding-top: 0px;
+        left: 15px;
+        margin-left: 0px;
+    }
+    #font3\.1{
+        font-size: 27px;
+        width: 101px;
+        left: 64px;
+        padding-top: 0px;
+    }
+    #font3\.2{
+        font-size: 8px;
+        margin-left: 0px;
+        padding-top: 0px;
+        left: 198px;
+        top: 13px;
+        width: 115px;
+        bottom: 0px;
+        height: 20px;
+    }
+    #sectionfour{
+        height: 42px;
+    }
+    #gitass1{
+        width:100vw;
+        height: 350px;
+        left: 0px;
+        margin-right: 0px;
+        margin-left: 0px
+    }
+    #gitass2{
+        width: 100vw;
+        height: 350px;
+        left: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        top: 744px;
+    }
+    #gitass3{
+        width: 100vw;
+        height: 350px;
+        left: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        top: 715px;
+    }
+    #gitass4{
+        width: 100vw;
+        height: 350px;
+        left: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        top: 1460px;
+    }
+    #see{
+        top: 1540px;
+        width: 120px;
+        height: 50px
+    }
+    #interest{
+        height: 520px;
+    }
+    #artical4{
+        width: 100vw;
+        height: 30px;
+    }
+    #font4{
+        font-size: 27px;
+        padding-top: 0px;
+        left: 15px;
+        margin-left: 0px;
+    }
+    #font4\.1{
+        font-size: 27px;
+        width: 101px;
+        left: 64px;
+        padding-top: 0px;
+    }
+    #font4\.2{
+        font-size: 8px;
+        margin-left: 0px;
+        padding-top: 0px;
+        left: 148px;
+        top: 13px;
+        width: 170px;
+        bottom: 0px;
+        height: 20px;
+    }
+    #music{
+        width: 150px;
+        height: 60px;
+        top: 0px;
+        bottom: 360px;
+        right: 0;
+        left: 0;
+        position: absolute;
+        margin: auto;
+    }
+    #game{
+        width: 150px;
+        height: 60px;
+        top: 0px;
+        bottom: 190px;
+        right: 0;
+        left: 0;
+        position: absolute;
+        margin: auto;
+    }
+    #rc{
+        width: 150px;
+        height: 60px;
+        top: 0px;
+        bottom: 10px;
+        right: 0;
+        left: 0;
+        position: absolute;
+        margin: auto;
+    }
+    #reading{
+        width: 150px;
+        height: 60px;
+        top: 170px;
+        bottom: 0px;
+        right: 0;
+        left: 0;
+        position: absolute;
+        margin: auto;
+    }
+    #swim{
+        width: 150px;
+        height: 60px;
+        top: 340px;
+        bottom: 0px;
+        right: 0;
+        left: 0;
+        position: absolute;
+        margin: auto;
+    }
+    #educationmain{
+        height: 520px;
+    }
+    #artical5{
+        width: 100vw;
+        height: 30px;
+    }
+    #font5{
+        font-size: 27px;
+        padding-top: 0px;
+        left: 15px;
+        margin-left: 0px;
+    }
+    #font5\.1{
+        font-size: 27px;
+        width: 101px;
+        left: 64px;
+        padding-top: 0px;
+    }
+    #font5\.2{
+        font-size: 8px;
+        margin-left: 0px;
+        padding-top: 0px;
+        left: 199px;
+        top: 13px;
+        width: 100px;
+        bottom: 0px;
+        height: 20px;
+    }
+    #Scltext{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 60px;
+        bottom: auto;
+        margin: auto;
+        width: 95vw;
+        text-align: center;
+        padding-bottom: 8px;
+    }
+    #Scl1text{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 210px;
+        bottom: auto;
+        margin: auto;
+        width: 95vw;
+        text-align: center;
+        padding-bottom: 8px;
+    }
+    #Unitext{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 360px;
+        bottom: auto;
+        margin: auto;
+        width: 95vw;
+        text-align: center;
+        padding-bottom: 8px;
+    }
+    #edu4{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 360px;
+        bottom: auto;
+        margin: auto;
+        width: 0px;
+    }
+    #contactmain{
+        height: 1080px;
+        width: 100vw;
+    }
+    #artical6{
+        width: 100vw;
+        height: 30px;
+    }
+    #font6{
+        font-size: 27px;
+        padding-top: 0px;
+        left: 15px;
+        margin-left: 0px;
+    }
+    #font6\.1{
+        font-size: 27px;
+        width: 101px;
+        left: 64px;
+        padding-top: 0px;
+    }
+    #font6\.2{
+        font-size: 8px;
+        margin-left: 0px;
+        padding-top: 0px;
+        left: 165px;
+        top: 13px;
+        width: 150px;
+        bottom: 0px;
+        height: 20px;
+    }
+    #contact1{
+        left: 0;
+        width: 100vw;
+        height: 100px;
+        position: absolute;
+        bottom: 0px;
+        top: 0;
+    }
+    #phone{
+        width: 100px;
+        height: 100px;
+        left: 2px;
+        top: 0px;
+    }
+    #phonetitle{
+        top: 8px;
+        left: 120px;
+        font-size: 24px;
+    }
+    #number{
+        font-size: 24px;
+        left: 120px;
+        top: 49px;
+    }
+    #contact2{
+        left: 0;
+        width: 100vw;
+        height: 100px;
+        position: absolute;
+        bottom: 0px;
+        top: 110px;
+    }
+    #location{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 2px;
+        top: 0;
+        bottom: 0;
+    }
+    #locationtitle{
+        top: 8px;
+        left: 120px;
+        font-size: 24px;
+    }
+    #address{
+        font-size: 16px;
+        left: 120px;
+        width: 190px;
+        top: 43px;
+    }
+    #address1{
+        font-size: 16px;
+        left: 120px;
+        width: 190px;
+        top: 68px;
+    }
+    #contact3{
+        left: 0;
+        width: 100vw;
+        height: 100px;
+        position: absolute;
+        bottom: 0px;
+        top: 235px;
+    }
+    #email{
+        width: 100px;
+        height: 100px;
+        left: 2px;
+        top: 0px;
+    }
+    #emailname{
+        top: 8px;
+        left: 120px;
+        font-size: 24px;
+    }
+    #emailaddress{
+        font-size: 14px;
+        left: 120px;
+        top: 49px;
+    }
+    #inbox{
+        width: 0px;
+        left: 0;
+    }
+    #inboxnew{
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 150px;
+        margin: auto;
+    }
+    #name{
+        font-size: 21px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        top: 410px;
+    }
+    #name1{
+        font-size: 0px;
+        left: 100px;
+        top: 430px;
+    }
+    #namebox{
+        height: 28px;
+        width: 90vw;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 520px;
+    }
+    #addemail{
+        font-size: 21px;
+        left: 0;
+        right: 0;
+        position: absolute;
+        margin: auto;
+        height: 28px;
+        top: 560px;
+        width: 139px;
+    }
+    #addemail1{
+        font-size: 0px;
+        left: 100px;
+        top: 520px;
+    }
+    #emailbox{
+        height: 28px;
+        width: 90vw;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 670px;
+    }
+    #detail{
+        font-size: 21px;
+        left: 0;
+        right: 0;
+        position: absolute;
+        margin: auto;
+        height: 28px;
+        top: 702px;
+        width: 88px;
+    }
+    #detail1{
+        font-size: 0px;
+        left: 100px;
+        top: 520px;
+    }
+    #detailbox{
+        width: 90vw;;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 790px;
+        height: 185px;
+    }
+    #send{
+        top: 988px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        position: absolute;
+    }
+    #fot{
+        height: 30px;
+        width: 100vw;
+    }
+    #idconatct {
+        height: 60px
+    }
+    .mySlides{
+        width: 100%;
+        height: 350px;
+    }
+    #idtext{
+        width: 300px;
+        height: 100px;
+        margin-left: 34px;
+        font-size: 20px;
+    }
+    #lastp{
+        margin-top: 3px;
+        margin-bottom: 0px;
+    }
+    #contactmain{
+        height: 1080px;
+        width: 100vw;
+    }
+    #idlast{
+        height: 1020px;
+    }
+    #dot{
+        top: 490px;
+    }
+}

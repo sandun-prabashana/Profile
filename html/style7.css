@@ -1,0 +1,267 @@
+@media all and (max-width: 1024px) and (min-width: 950px) {
+    #edu1{
+        display: none;
+    }
+    #edu2{
+        display: none;
+    }
+    #edu3{
+        display: none;
+    }
+    #edu4{
+        display: none;
+    }
+    #idschool{
+        display: none;
+    }
+    #idschool2{
+        display: none;
+    }
+    #idinstitute{
+        display: none;
+    }
+    #Scltext{
+        display: block;
+    }
+    #Scl1text{
+        display: block;
+    }
+    #Unitext{
+        display: block;
+    }
+
+    #body{
+        height: 5120px;
+    }
+    nav ul li {
+        margin: 0px 10px;
+    }
+    .download{
+        margin-right: 0px;
+    }
+    #mainprofile{
+             height: 600px;
+         }
+    #profile{
+        height: 620px;
+        width: 99vw
+    }
+    .box{
+        left: 20px;
+        right: 0;
+        top: 90px;
+        bottom: 0;
+        position: absolute;
+        margin: auto;
+    }
+    #pic{
+        left: 0;
+        right: 5px;
+        top: 28px;
+        bottom: 0;
+        position: absolute;
+        margin: auto;
+    }
+    .gluebox1{
+        left: 14px;
+        right: 5px;
+        top: 90px;
+        bottom: 0;
+        position: absolute;
+        margin: auto;
+    }
+    #three{
+        left: 32px;
+    }
+    .five{
+        left: 70px;
+    }
+    #skills{
+        height: 620px;
+    }
+    #gitass1{
+        width: 450px;
+        height: 300px;
+    }
+    #gitass2{
+        width: 450px;
+        height: 300px;
+    }
+    #gitass3{
+        width: 450px;
+        height: 300px;
+    }
+    #gitass4{
+        width: 450px;
+        height: 300px;
+    }
+    #idrow1{
+        width: 930px;
+        height: 300px;
+    }
+    #idrow2{
+        width: 930px;
+        height: 300px;
+    }
+
+    #assiment{
+        height: 850px;
+    }
+    #see{
+        top: 790px;
+    }
+    #interest{
+        height: 550px;
+    }
+    #music{
+        left: 50px;
+    }
+    #rc{
+        left: 750px;
+    }
+    #game{
+        left: 350px;
+    }
+    #reading{
+        left: 200px;
+    }
+    #swim{
+        left: 550px;
+    }
+    #educationmain{
+        height: 600px;
+    }
+    #Scltext{
+        text-align: center;
+        width: 80vw;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Scl1text{
+        text-align: center;
+        width: 80vw;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Unitext{
+        text-align: center;
+        width: 80vw;
+        padding-bottom: 10px;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #contactmain{
+        height: 1200px;
+        width: 100vw;
+
+    }
+    #phone{
+        height: 90px;
+        width: 90px;
+        top: 30px;
+        left: 110px;
+    }
+    #location{
+        height: 90px;
+        width: 90px;
+        top: 30px;
+        left: 570px;
+    }
+    #email{
+        top: 250px;
+        height: 90px;
+        width: 90px;
+        left: 110px;
+    }
+    #phonetitle{
+        font-size: 32px;
+        top: 35px;
+    }
+    #number{
+        font-size: 32px;
+        top: 80px;
+    }
+    #emailname{
+        top: 250px;
+        font-size: 32px;
+    }
+    #emailaddress{
+        top: 300px;
+        font-size: 32px;
+    }
+    #address{
+        font-size: 21px;
+        top: 80px;
+        left: 680px;
+    }
+    #address1{
+        font-size: 21px;
+        left: 680px;
+        top: 110px;
+    }
+    #locationtitle{
+        font-size: 32px;
+        left: 680px;
+        top: 40px;
+    }
+    #name{
+        top: 550px;
+        left: 130px;
+    }
+    #addemail{
+        top: 650px;
+        left: 130px;
+    }
+    #detail{
+        top: 750px;
+        left: 130px;
+    }
+    #name1{
+        top: 550px;
+        left: 375px;
+    }
+    #addemail1{
+        top: 650px;
+        left: 375px;
+    }
+    #detail1{
+        top: 750px;
+        left: 375px;
+    }
+    #namebox{
+        top: 570px;
+        left: 510px;
+        width: 400px;
+    }
+    #emailbox{
+        top: 670px;
+        left: 510px;
+        width: 400px;
+    }
+    #detailbox{
+        top: 770px;
+        left: 510px;
+        width: 400px;
+    }
+    #inbox{
+        width: 98vw;
+    }
+    #send{
+        top: 1020px;
+        right: 48px;
+    }
+
+}

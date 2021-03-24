@@ -1,0 +1,360 @@
+*{
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+}
+.skills{
+    width: 500px;
+    margin: 60px auto;
+    color: white;
+}
+.skills li{
+    margin: 50px 0;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+.load{
+
+}
+.html{
+    width: 50%;
+    animation: html 2s;
+}
+.css{
+    width: 40%;
+    animation: css 2s;
+}
+.java{
+    width: 70%;
+    animation: java 2s;
+}
+.mysql{
+    width: 75%;
+    animation: mysql 2s;
+}
+.school{
+    font-size: 16px;
+    position: absolute;
+    color: rgb(136, 146, 176);
+    left: 346px;
+    top: 204px;
+}
+.school2{
+    font-size: 16px;
+    position: absolute;
+    color: rgb(136, 146, 176);
+    left: 842px;
+    top: 304px;
+}
+.institute{
+    font-size: 16px;
+    position: absolute;
+    color: rgb(136, 146, 176);
+    left: 347px;
+    top: 420px;
+}
+.school:hover{
+    color:rgb(100 255 218);
+}
+.school2:hover{
+    color:rgb(100 255 218);
+}
+.institute:hover{
+    color:rgb(100 255 218);
+}
+#phone{
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    left: 130px;
+    top: 130px;
+}
+#location{
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    left: 700px;
+    top: 130px;
+}
+#email{
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    left: 130px;
+    top: 400px;
+}
+#phonetitle{
+    font-size: 36px;
+    color: rgb(136, 146, 176);
+    margin: unset;
+    position: absolute;
+    left: 270px;
+    top: 130px;
+}
+#number{
+    font-size: 36px;
+    color: rgb(136, 146, 176);
+    margin: unset;
+    position: absolute;
+    left: 270px;
+    top: 180px;
+}
+#locationtitle{
+    font-size: 36px;
+    color: rgb(136, 146, 176);
+    margin: unset;
+    position: absolute;
+    left: 840px;
+    top: 130px;
+}
+#address{
+    font-size: 36px;
+    color: rgb(136, 146, 176);
+    margin: unset;
+    position: absolute;
+    left: 840px;
+    top: 180px;
+}
+#address1{
+    font-size: 36px;
+    color: rgb(136, 146, 176);
+    margin: unset;
+    position: absolute;
+    left: 840px;
+    top: 230px;
+}
+#emailname{
+    font-size: 36px;
+    color: rgb(136, 146, 176);
+    margin: unset;
+    position: absolute;
+    left: 270px;
+    top: 400px;
+}
+#emailaddress{
+    font-size: 36px;
+    color: rgb(136, 146, 176);
+    margin: unset;
+    position: absolute;
+    left: 270px;
+    top: 450px;
+}
+section:nth-child(7){
+    background-color: rgb(23, 42, 69);
+}
+#inbox{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    top: 30px;
+    right: 0;
+}
+#name{
+    font-size: 24px;
+    color: rgb(136, 146, 176);
+    bottom: 430px;
+    left: 320px;
+    position: absolute;
+}
+#name1{
+    font-size: 24px;
+    color: rgb(136, 146, 176);
+    bottom: 430px;
+    left: 545px;
+    position: absolute;
+}
+#namebox{
+    width: 500px;
+    height: 35px;
+    background-color: rgb(196, 196, 196);
+    bottom: 450px;
+    left: 735px;
+    position: absolute;
+}
+#addemail{
+    font-size: 24px;
+    color: rgb(136, 146, 176);
+    bottom: 350px;
+    left: 320px;
+    position: absolute;
+}
+#addemail1{
+    font-size: 24px;
+    color: rgb(136, 146, 176);
+    bottom: 350px;
+    left: 545px;
+    position: absolute;
+}
+#emailbox{
+    width: 500px;
+    height: 35px;
+    background-color: rgb(196, 196, 196);
+    bottom: 370px;
+    left: 735px;
+    position: absolute;
+}
+#detail{
+    font-size: 24px;
+    color: rgb(136, 146, 176);
+    bottom: 270px;
+    left: 320px;
+    position: absolute;
+}
+#detail1{
+    font-size: 24px;
+    color: rgb(136, 146, 176);
+    bottom: 270px;
+    left: 545px;
+    position: absolute;
+}
+#detailbox{
+    width: 500px;
+    height: 220px;
+    background-color: rgb(196, 196, 196);
+    bottom: 103px;
+    left: 735px;
+    position: absolute;
+}
+footer{
+    width: 98vw;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(10 25 47);
+    color: rgb(136, 146, 176);
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+#send{
+    font-size: 18px;
+    width: 104px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: transparent;
+    position: absolute;
+    right: 100px;
+    bottom: 25px;
+    color: rgb(100 255 218);
+    border: 2px solid rgb(100 255 218);
+}
+#send:hover{
+    color: red;
+    border: 2px solid red;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes java {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes mysql {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+.imgname{
+    position: absolute;
+    top:80px;
+    left:130px;
+    color: rgb(100 255 218);
+    font-style: revert;
+}
+.imgfullname{
+    position: absolute;
+    top:85px;
+    left:130px;
+    color: rgb(204 214 246);
+    font-style: revert;
+    font-size: 72px
+}
+.imgjava{
+    position: absolute;
+    top:162px;
+    left:158px;
+    color: rgb(132 136 150);
+    font-style: revert;
+    font-size: 72px
+}
+.music{
+    position: absolute;
+    left: 110px;
+    top: 215px;
+}
+.game{
+    position: absolute;
+    left: 568px;
+    top: 215px;
+}
+.rc{
+    position: absolute;
+    left: 1020px;
+    top: 215px
+}
+.reading{
+    position: absolute;
+    left: 353px;
+    top: 360px;
+}
+.swim{
+    position: absolute;
+    left: 857px;
+    top: 362px;
+}
+.edu1{
+    position: absolute;
+    left: 241px;
+    top: 179px;
+}
+.edu2{
+    position: absolute;
+    left: 732px;
+    top: 280px;
+}
+.edu3{
+    position: absolute;
+    left: 242px;
+    top: 392px;
+}
+.edu4{
+    position: absolute;
+    left: 596px;
+    top: 149px
+}
+.inboxnew{
+    width: 0;
+}
